@@ -1,6 +1,24 @@
 {
-  "name": "ui-kit-demo",
-  "version": "0.0.0",
+  "name": "@ermag/ui-kit-demo",
+  "version": "0.0.2",
+  "description": "This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-ermag:Ermag/ui-kit-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/ui-kit.umd.js",
+  "module": "./dist/ui-kit.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ui-kit.es.js",
+      "require": "./dist/ui-kit.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
