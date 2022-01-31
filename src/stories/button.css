@@ -1,3 +1,7 @@
+* {
+  border: 3px solid yellow;
+}
+
 .storybook-button {
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -9,7 +13,7 @@
 }
 .storybook-button--primary {
   color: white;
-  background-color: blueviolet;
+  background-color: darkcyan;
 }
 .storybook-button--secondary {
   color: #333;
